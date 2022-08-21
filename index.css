@@ -361,6 +361,7 @@ header{
     color: var(--secondary);
     text-align: center;
     font-family: sans-serif;
+    border-radius: 2px;
 }
 .save span{
     display: inline-block;
@@ -421,6 +422,7 @@ header{
     background-color: #003580;
     margin-top: 1px;
     padding: 20px;
+    border-radius: 2px;
 }
 .link-list ul{
     display: flex;
@@ -464,21 +466,26 @@ ul .f2:hover .sp2{
     color: var(--secondary);
     padding: 10px;
     text-align: center;
+    border-radius: 2px;
 }
  
  
 .footer .go a i {
-    background-color: rgb(226, 134, 134);
+    background-color: aquamarine;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(241, 125, 125);
     display: inline-block;
     text-align: center;
-    color: black;
+    color: rgb(241, 125, 125);
     margin-left: 415px;
+    border-radius: 4px;
     position: fixed;
     bottom: 9px;
     z-index: 10;
-    opacity: 0.5;
+    opacity: 0.6;
+}
+.go a i:hover{
+    opacity: 1;
 }
 
  
