@@ -273,7 +273,7 @@ header{
     margin-right: 90px;
 }
  h1{
-    margin: 20px;
+    margin: 20px 20px 10px 20px;
     margin-left: 116px;
    
 }
@@ -330,6 +330,12 @@ header{
 .t2{
     position: relative;
     height: 318px;
+}
+.t2 .BP{
+    margin-left: 100px;
+    color: gray;
+    font-size: 18px;
+    padding: 0px 10px 15px 10px;
 }
 .Districts{
     margin-left: 170px;
